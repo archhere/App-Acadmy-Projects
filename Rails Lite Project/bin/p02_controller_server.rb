@@ -9,6 +9,8 @@ class MyController < ControllerBase
       redirect_to("/cats")
     end
   end
+
+
 end
 app = Proc.new do |env|
   req = Rack::Request.new(env)
@@ -21,4 +23,3 @@ Rack::Server.start(
   app: app,
   Port: 3000
 )
-

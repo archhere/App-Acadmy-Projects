@@ -1,0 +1,25 @@
+
+
+.secs_nav{
+  display: flex;
+  font-family: $sans-serif;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $light-gray;
+  padding-bottom: 10px;
+  width: 900px;
+}
+
+.all_link{
+  text-decoration: underline;
+}
+
+.secs_nav a:hover{
+  background-color: $light-gray
+  
+}
+
+.secs_nav a {
+  
+}
